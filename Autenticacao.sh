@@ -104,7 +104,7 @@ class Application:
 			self.mensagem['text'] = 'Autenticado'
 			acesso = 'permitido'
 		else:
-			self.mensagem['text'] = 'Erro na Autenticação'
+			self.mensagem['text'] = 'Usuário ou senha incorreto, tente novamente'
 		if acesso == 'permitido':
 
 #comando personalizavel de sistema UNIX para quando usuário for autenticado
